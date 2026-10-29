@@ -45,7 +45,7 @@ START-OF-SELECTION.
     ENDIF.
     
     APPEND ls_report TO lt_report.
-  </col>LOOP.
+  ENDLOOP.
 
   " 4. Display Modern ALV Grid
   DATA: lo_alv TYPE REF TO cl_salv_table.
